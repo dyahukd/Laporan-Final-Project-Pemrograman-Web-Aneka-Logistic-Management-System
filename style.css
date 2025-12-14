@@ -1,0 +1,317 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+}
+
+.navbar .nav-link {
+  font-weight: 500;
+}
+
+.navbar .btn {
+  border-radius: 20px;
+  font-weight: 600;
+}
+
+.navbar .btn-danger {
+  background: #b82025;
+  border-color: #b82025;
+}
+
+.navbar .btn-danger:hover {
+  background: #9f1b20;
+}
+
+.navbar .btn-outline-danger:hover {
+  background: #b82025;
+  color: #fff;
+}
+
+
+/* HERO SLIDER */
+.hero-slider {
+  margin-top: 70px;        
+  position: relative;
+  height: 80vh;
+  overflow: hidden;
+}
+
+.hero-slide {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.8s ease-in-out;
+}
+
+.hero-slide.active {
+  opacity: 1;
+}
+
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    rgba(184, 32, 37, 0.85),
+    rgba(184, 32, 37, 0.85)
+  );
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  color: #ffffff;
+  max-width: 720px;
+  padding: 0 16px;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.hero-content p {
+  font-size: 1.1rem;
+}
+
+/* TRACKING */
+.tracking-section {
+  background: #f4c430;
+  padding: 60px 0;
+}
+
+.tracking-section h2 {
+  font-weight: 700;
+}
+
+.tracking-box {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.tracking-box input {
+  padding: 14px 16px;
+  border-radius: 8px;
+  border: none;
+  min-width: 260px;
+  max-width: 360px;
+}
+
+.tracking-box button {
+  background: #b82025;
+  color: #fff;
+  border: none;
+  padding: 14px 24px;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+/* SERVICES */
+.services-detail {
+  padding: 70px 0;
+  background: #ffffff;
+}
+
+.service-icon {
+  width: 60px;
+  height: 60px;
+  background: #f4c430;
+  color: #1e1e1e;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 26px;
+  flex-shrink: 0;
+  margin-right: 16px;
+}
+
+.services-detail h5 {
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.services-detail p {
+  color: #666;
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+/* MAP FULL + LOCATION BOX */
+.map-full {
+  position: relative;
+  width: 100%;
+  height: 450px;
+}
+
+.map-full iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+/* KOTAK LOKASI DI ATAS MAP */
+.location-box {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  background: #ffffff;
+  width: 320px;
+  border-radius: 14px;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.18);
+  z-index: 10;
+  overflow: hidden;
+  font-size: 14px;
+}
+
+.location-header {
+  background: #b82025;
+  color: #ffffff;
+  padding: 14px 16px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.location-item {
+  border-top: 1px solid #eee;
+  cursor: pointer;
+}
+
+.location-title {
+  padding: 12px 16px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.location-title span {
+  font-weight: 700;
+}
+
+.location-content {
+  padding: 0 16px 12px;
+  color: #555;
+  display: none;
+}
+
+.location-item.active .location-content {
+  display: block;
+}
+
+.location-item.active .location-title span {
+  color: #b82025;
+}
+
+/* STATS */
+.stats-section {
+  background: #b82025;
+  color: #ffffff;
+  padding: 70px 0;
+}
+
+.stats-section h2 {
+  font-weight: 700;
+  max-width: 400px;
+}
+
+.stats-line {
+  width: 60px;
+  height: 4px;
+  background: #f4c430;
+  margin-top: 15px;
+}
+
+.stat-item {
+  font-size: 28px;
+}
+
+.stat-item h3 {
+  margin: 10px 0 5px;
+  font-weight: 700;
+}
+
+.stat-item p {
+  font-size: 14px;
+  color: #f0f0f0;
+}
+
+/* FOOTER */
+.footer {
+  background: #111111;
+  color: #ffffff;
+  padding: 50px 0 25px;
+}
+
+.footer-title {
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.footer-text {
+  font-size: 0.9rem;
+  color: #cccccc;
+}
+
+.footer-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.footer-list li {
+  font-size: 0.9rem;
+  color: #cccccc;
+  margin-bottom: 4px;
+}
+
+.footer-contact {
+  font-size: 0.9rem;
+}
+
+.footer-contact span {
+  margin-right: 4px;
+}
+
+.footer-address {
+  font-size: 0.85rem;
+  color: #b3b3b3;
+  margin-top: 8px;
+}
+
+.footer-bottom {
+  border-top: 1px solid #333;
+  margin-top: 24px;
+  padding-top: 14px;
+  text-align: center;
+  font-size: 0.8rem;
+  color: #777;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .hero-content h1 {
+    font-size: 2.2rem;
+  }
+
+  .location-box {
+    top: 16px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+  }
+}
