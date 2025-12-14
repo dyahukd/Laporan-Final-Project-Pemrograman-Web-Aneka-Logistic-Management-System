@@ -152,7 +152,8 @@ Hasil pengujian menunjukkan sistem berjalan sesuai dengan kebutuhan fungsional.
 | 3  | Database  | Desain tabel & relasi       |
 | 4  | Testing   | Pengujian fitur sistem      |
 
-| No | Nama | Keterangan                  |
+| No | Nama      | Keterangan             |
+| -- | --------- | ---------------------- |
 | 1 | Dyah Utami Kesuma Dewi | Frontend (UI, Landing Page, Animasi) |
 | 2 | Shifa Alya Dewi | Backend & Database |
 | 3 | Dyah Utami Kesuma Dewi | Tracking & Laporan |
