@@ -6,6 +6,11 @@ Website : https://anekalogisticmsys.lovestoblog.com/
 
 Link Video Demo : https://www.youtube.com/watch?v=izwU70Gdsxs
 
+| No | Nama | NRP           |
+| -- | ---  | ---           |
+| 1  | Shifa Alya Dewi  | 5025241176 |
+| 2  | Dyah Utami Kesuma Dewi  | 5025241186 |
+
 ---
 
 ## 1. Pendahuluan
@@ -146,7 +151,7 @@ Hasil pengujian menunjukkan sistem berjalan sesuai dengan kebutuhan fungsional.
 
 ---
 
-## 9. Pembagian Jobdesk (Individu)
+## 9. Pembagian Jobdesk
 
 | No | Aktivitas | Keterangan                  |
 | -- | --------- | --------------------------- |
