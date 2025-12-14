@@ -166,6 +166,6 @@ Hasil pengujian menunjukkan sistem berjalan sesuai dengan kebutuhan fungsional.
 
 ## 10. Penutup
 
-Aneka Logistic Management System berhasil dikembangkan sebagai aplikasi web logistik yang menerapkan konsep Web Programming secara menyeluruh. Sistem ini mampu mengelola pengiriman, tracking resi, serta laporan secara terintegrasi. Diharapkan aplikasi ini dapat memenuhi kriteria penilaian Final Project dan Laporan Praktikum serta menjadi contoh implementasi sistem informasi berbasis web.
+Aneka Logistic Management System berhasil dikembangkan sebagai aplikasi web logistik yang mengimplementasikan pembelajaran Web Programming selama semester ini. Sistem ini mampu mengelola pengiriman, tracking resi, serta laporan secara terintegrasi. Diharapkan aplikasi ini dapat memenuhi kriteria kebutuhan jasa logistik. Atas ilmu yang telah diberikan, kami ucapkan terimakasih.
 
 ---
